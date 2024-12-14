@@ -1,3 +1,10 @@
+"""
+gpudataclass: a @jitclass like decorator for the numba CUDA target.
+
+Much of the code here is adapted from the numba extension example code
+here: https://github.com/gmarkall/numba-accelerated-udfs/blob/main/filigree/numba_extension.py
+"""
+
 from dataclasses import dataclass
 
 import numba
